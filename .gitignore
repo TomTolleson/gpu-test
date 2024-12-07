@@ -46,3 +46,12 @@ results/
 
 # Environment
 .env
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore __pycache__ directories
+tests/__pycache__/
+
+# Ignore the .conda directory and all its contents
+.conda/

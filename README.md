@@ -20,9 +20,9 @@ A project to benchmark GPU performance using Hugging Face models.
 pip install -r requirements.txt
 
 # Install the package
-python setup.py install
+python -m build
 
 # Run the benchmark script
-python gpu_benchmark.py
+python tests/gpu_benchmark.py
 ```
 
