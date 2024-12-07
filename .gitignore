@@ -35,3 +35,14 @@ ENV/
 *.ptx
 *.cubin
 *.fatbin
+
+# Model cache
+.cache/
+.transformers/
+
+# Results
+results/
+*.log
+
+# Environment
+.env
